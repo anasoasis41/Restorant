@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="1159" y="249"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Mon Tab Bar-->
         <scene sceneID="Tng-hv-CFv">
             <objects>
-                <tabBarController id="sgS-9F-ctc" sceneMemberID="viewController">
+                <tabBarController id="sgS-9F-ctc" customClass="MonTabBar" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MHw-4E-jVS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -73,11 +73,11 @@
             </objects>
             <point key="canvasLocation" x="-732" y="-111"/>
         </scene>
-        <!--Item 1-->
+        <!--Menu-->
         <scene sceneID="0ps-gI-cwX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q0v-o9-oDR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="gNU-o6-FJ4"/>
+                    <tabBarItem key="tabBarItem" title="Menu" id="gNU-o6-FJ4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TGK-77-iOK">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -92,11 +92,11 @@
             </objects>
             <point key="canvasLocation" x="220" y="-443.02848575712147"/>
         </scene>
-        <!--Item-->
+        <!--A la carte-->
         <scene sceneID="OUe-A8-juR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mfG-uk-heE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="G2t-H2-ckU"/>
+                    <tabBarItem key="tabBarItem" title="A la carte" id="G2t-H2-ckU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CSt-qv-1Xe">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
