@@ -16,6 +16,7 @@
 		18B75AF620DFB7340057DABC /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AF520DFB7340057DABC /* MonTabBar.swift */; };
 		18B75AF920DFB8860057DABC /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AF820DFB8860057DABC /* Constantes.swift */; };
 		18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AFA20DFBEDF0057DABC /* MonNav.swift */; };
+		18B75AFD20DFC5E90057DABC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AFC20DFC5E90057DABC /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18B75AF520DFB7340057DABC /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		18B75AF820DFB8860057DABC /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		18B75AFA20DFBEDF0057DABC /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
+		18B75AFC20DFC5E90057DABC /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		18B75AEF20DFB0260057DABC /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				18B75AFC20DFC5E90057DABC /* MenuCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B75AFD20DFC5E90057DABC /* MenuCell.swift in Sources */,
 				18B75AF620DFB7340057DABC /* MonTabBar.swift in Sources */,
 				18B75AF420DFB1620057DABC /* ALaCarteController.swift in Sources */,
 				18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */,
