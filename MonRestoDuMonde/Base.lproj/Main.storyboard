@@ -76,7 +76,7 @@
         <!--Menu-->
         <scene sceneID="0ps-gI-cwX">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q0v-o9-oDR" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q0v-o9-oDR" customClass="MonNav" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Menu" id="gNU-o6-FJ4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TGK-77-iOK">
@@ -95,7 +95,7 @@
         <!--A la carte-->
         <scene sceneID="OUe-A8-juR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mfG-uk-heE" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mfG-uk-heE" customClass="MonNav" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="A la carte" id="G2t-H2-ckU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CSt-qv-1Xe">

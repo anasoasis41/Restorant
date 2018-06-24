@@ -15,6 +15,7 @@
 		18B75AF420DFB1620057DABC /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AF320DFB1620057DABC /* ALaCarteController.swift */; };
 		18B75AF620DFB7340057DABC /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AF520DFB7340057DABC /* MonTabBar.swift */; };
 		18B75AF920DFB8860057DABC /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AF820DFB8860057DABC /* Constantes.swift */; };
+		18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AFA20DFBEDF0057DABC /* MonNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		18B75AF320DFB1620057DABC /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		18B75AF520DFB7340057DABC /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		18B75AF820DFB8860057DABC /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		18B75AFA20DFBEDF0057DABC /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				18B75AF120DFB0830057DABC /* MenuController.swift */,
 				18B75AF320DFB1620057DABC /* ALaCarteController.swift */,
 				18B75AF520DFB7340057DABC /* MonTabBar.swift */,
+				18B75AFA20DFBEDF0057DABC /* MonNav.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				18B75AF620DFB7340057DABC /* MonTabBar.swift in Sources */,
 				18B75AF420DFB1620057DABC /* ALaCarteController.swift in Sources */,
+				18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */,
 				18B75AF220DFB0830057DABC /* MenuController.swift in Sources */,
 				18A93EB220DEFC88008B284F /* AppDelegate.swift in Sources */,
 				18B75AF920DFB8860057DABC /* Constantes.swift in Sources */,
