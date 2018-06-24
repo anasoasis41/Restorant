@@ -17,6 +17,8 @@
 		18B75AF920DFB8860057DABC /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AF820DFB8860057DABC /* Constantes.swift */; };
 		18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AFA20DFBEDF0057DABC /* MonNav.swift */; };
 		18B75AFD20DFC5E90057DABC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AFC20DFC5E90057DABC /* MenuCell.swift */; };
+		18B75AFF20DFCAF20057DABC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75AFE20DFCAF20057DABC /* Enums.swift */; };
+		18B75B0120DFCBEC0057DABC /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75B0020DFCBEC0057DABC /* Plat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		18B75AF820DFB8860057DABC /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		18B75AFA20DFBEDF0057DABC /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		18B75AFC20DFC5E90057DABC /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		18B75AFE20DFCAF20057DABC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		18B75B0020DFCBEC0057DABC /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		18B75AEE20DFB01C0057DABC /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				18B75AFE20DFCAF20057DABC /* Enums.swift */,
+				18B75B0020DFCBEC0057DABC /* Plat.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -187,7 +193,9 @@
 				18B75AF420DFB1620057DABC /* ALaCarteController.swift in Sources */,
 				18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */,
 				18B75AF220DFB0830057DABC /* MenuController.swift in Sources */,
+				18B75B0120DFCBEC0057DABC /* Plat.swift in Sources */,
 				18A93EB220DEFC88008B284F /* AppDelegate.swift in Sources */,
+				18B75AFF20DFCAF20057DABC /* Enums.swift in Sources */,
 				18B75AF920DFB8860057DABC /* Constantes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
