@@ -21,6 +21,9 @@
 		18B75B0120DFCBEC0057DABC /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75B0020DFCBEC0057DABC /* Plat.swift */; };
 		18B75B0320DFF7FD0057DABC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75B0220DFF7FD0057DABC /* Menu.swift */; };
 		18B75B0520E005C40057DABC /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B75B0420E005C40057DABC /* LesPlats.swift */; };
+		18BCEFCE20E5AA1D00D52A23 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFCD20E5AA1D00D52A23 /* PlatCell.swift */; };
+		18BCEFD020E5AE3F00D52A23 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFCF20E5AE3F00D52A23 /* ALaCarte.swift */; };
+		18E9DD1A20E44AB600E98C6F /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DD1920E44AB600E98C6F /* Degrade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		18B75B0020DFCBEC0057DABC /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		18B75B0220DFF7FD0057DABC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		18B75B0420E005C40057DABC /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
+		18BCEFCD20E5AA1D00D52A23 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
+		18BCEFCF20E5AE3F00D52A23 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
+		18E9DD1920E44AB600E98C6F /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 				18B75B0020DFCBEC0057DABC /* Plat.swift */,
 				18B75B0220DFF7FD0057DABC /* Menu.swift */,
 				18B75B0420E005C40057DABC /* LesPlats.swift */,
+				18BCEFCF20E5AE3F00D52A23 /* ALaCarte.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -100,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				18B75AFC20DFC5E90057DABC /* MenuCell.swift */,
+				18E9DD1920E44AB600E98C6F /* Degrade.swift */,
+				18BCEFCD20E5AA1D00D52A23 /* PlatCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -197,7 +206,10 @@
 				18B75AFD20DFC5E90057DABC /* MenuCell.swift in Sources */,
 				18B75AF620DFB7340057DABC /* MonTabBar.swift in Sources */,
 				18B75AF420DFB1620057DABC /* ALaCarteController.swift in Sources */,
+				18BCEFCE20E5AA1D00D52A23 /* PlatCell.swift in Sources */,
 				18B75AFB20DFBEDF0057DABC /* MonNav.swift in Sources */,
+				18E9DD1A20E44AB600E98C6F /* Degrade.swift in Sources */,
+				18BCEFD020E5AE3F00D52A23 /* ALaCarte.swift in Sources */,
 				18B75B0320DFF7FD0057DABC /* Menu.swift in Sources */,
 				18B75AF220DFB0830057DABC /* MenuController.swift in Sources */,
 				18B75B0520E005C40057DABC /* LesPlats.swift in Sources */,
