@@ -94,11 +94,41 @@
                     <navigationItem key="navigationItem" id="9IY-Hu-5G3"/>
                     <connections>
                         <outlet property="collectionView" destination="V6E-KB-SXV" id="XEM-Xc-88B"/>
+                        <segue destination="JvK-Zv-Efa" kind="show" identifier="versDetail" id="J9X-7Z-7Dm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNo-fi-cbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1159.2" y="-443.02848575712147"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="LXw-Vq-BxQ">
+            <objects>
+                <viewController id="JvK-Zv-Efa" customClass="DetailController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZOu-N1-AKm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D48-Et-LDX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D48-Et-LDX" firstAttribute="trailing" secondItem="hMo-dm-q4b" secondAttribute="trailing" id="EKb-lY-mci"/>
+                            <constraint firstItem="D48-Et-LDX" firstAttribute="top" secondItem="hMo-dm-q4b" secondAttribute="top" id="RqM-0T-p2Q"/>
+                            <constraint firstItem="D48-Et-LDX" firstAttribute="leading" secondItem="hMo-dm-q4b" secondAttribute="leading" id="md3-GW-K4T"/>
+                            <constraint firstItem="D48-Et-LDX" firstAttribute="bottom" secondItem="hMo-dm-q4b" secondAttribute="bottom" id="vym-6K-Tz6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hMo-dm-q4b"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrolll" destination="D48-Et-LDX" id="FrA-gS-Xac"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7Q-Xp-OpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2064.8000000000002" y="-443.02848575712147"/>
         </scene>
         <!--La Carte Controller-->
         <scene sceneID="7qb-g0-VtJ">

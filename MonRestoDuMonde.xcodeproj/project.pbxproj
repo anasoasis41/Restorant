@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189EA78C20EFE22100D7D57E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EA78B20EFE22100D7D57E /* DetailController.swift */; };
 		18A93EB220DEFC88008B284F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A93EB120DEFC88008B284F /* AppDelegate.swift */; };
 		18A93EB720DEFC88008B284F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A93EB520DEFC88008B284F /* Main.storyboard */; };
 		18A93EB920DEFC8A008B284F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A93EB820DEFC8A008B284F /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189EA78B20EFE22100D7D57E /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		18A93EAE20DEFC88008B284F /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A93EB120DEFC88008B284F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A93EB620DEFC88008B284F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				18B75AF320DFB1620057DABC /* ALaCarteController.swift */,
 				18B75AF520DFB7340057DABC /* MonTabBar.swift */,
 				18B75AFA20DFBEDF0057DABC /* MonNav.swift */,
+				189EA78B20EFE22100D7D57E /* DetailController.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				18B75B0120DFCBEC0057DABC /* Plat.swift in Sources */,
 				18A93EB220DEFC88008B284F /* AppDelegate.swift in Sources */,
 				18B75AFF20DFCAF20057DABC /* Enums.swift in Sources */,
+				189EA78C20EFE22100D7D57E /* DetailController.swift in Sources */,
 				18B75AF920DFB8860057DABC /* Constantes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
