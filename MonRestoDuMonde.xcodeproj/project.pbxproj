@@ -25,6 +25,7 @@
 		18BCEFCE20E5AA1D00D52A23 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFCD20E5AA1D00D52A23 /* PlatCell.swift */; };
 		18BCEFD020E5AE3F00D52A23 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFCF20E5AE3F00D52A23 /* ALaCarte.swift */; };
 		18E9DD1A20E44AB600E98C6F /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DD1920E44AB600E98C6F /* Degrade.swift */; };
+		18F27CE220FB7D95006390AB /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27CE120FB7D95006390AB /* PlatVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		18BCEFCD20E5AA1D00D52A23 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		18BCEFCF20E5AE3F00D52A23 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		18E9DD1920E44AB600E98C6F /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
+		18F27CE120FB7D95006390AB /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				18B75AFC20DFC5E90057DABC /* MenuCell.swift */,
 				18E9DD1920E44AB600E98C6F /* Degrade.swift */,
 				18BCEFCD20E5AA1D00D52A23 /* PlatCell.swift */,
+				18F27CE120FB7D95006390AB /* PlatVue.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				18BCEFD020E5AE3F00D52A23 /* ALaCarte.swift in Sources */,
 				18B75B0320DFF7FD0057DABC /* Menu.swift in Sources */,
 				18B75AF220DFB0830057DABC /* MenuController.swift in Sources */,
+				18F27CE220FB7D95006390AB /* PlatVue.swift in Sources */,
 				18B75B0520E005C40057DABC /* LesPlats.swift in Sources */,
 				18B75B0120DFCBEC0057DABC /* Plat.swift in Sources */,
 				18A93EB220DEFC88008B284F /* AppDelegate.swift in Sources */,
